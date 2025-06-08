@@ -1,0 +1,20 @@
+  database:
+    type: sqlite
+    save-interval-seconds: 300
+  anti-dupe: true
+  logging: true
+  metrics: true
+  default-inventory-size: 5
+  storage-blocks:
+    nexo_storage_block:
+      title: "Nexo Storage"
+      size: 5
+      particles: "happy_villager:10:0.5:0.5:0.5"
+      require-lock: true
+      permission: "nexostorage.open.nexo_storage_block"
+    custom_vault:
+      title: "Custom Vault"
+      size: 6
+      particles: "smoke:5:0.3:0.3:0.3"
+      require-lock: false
+      permission: "nexostorage.open.custom_vault"

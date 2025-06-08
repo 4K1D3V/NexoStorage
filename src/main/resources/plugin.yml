@@ -1,0 +1,5 @@
+name: NexoStorage
+version: '1.0'
+main: gg.kite.Main
+api-version: '1.21'
+authors: [ KiteGG ]
